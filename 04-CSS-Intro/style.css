@@ -1,0 +1,40 @@
+p {
+  background-color: blueviolet;
+  margin-block-start: 0;
+}
+
+a {
+  text-decoration: line-through;
+}
+
+a {
+  text-decoration: overline;
+}
+
+h1 ~ p {
+  color: white;
+}
+
+nav ~ a {
+  text-decoration: none;
+}
+
+ul > li {
+  list-style-type: circle;
+}
+
+.nav-link {
+  text-decoration: none;
+}
+
+/* nav ul:first-of-type a {
+        text-decoration: none;
+      } */
+
+p.my-class {
+  background-color: chocolate;
+}
+
+#my-heading {
+  color: aqua;
+}
