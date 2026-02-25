@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* outline: 2px dashed purple; */
+}
+
+/* div {
+  outline: 1px solid blue;
+}
+
+section {
+  outline: 1px solid greenblue;
+}
+
+article {
+  outline: 1px dashed purple;
+} */
+
+.container {
+  background-color: orange;
+  width: 20rem;
+  height: 20rem;
+  align-content: center;
+  padding: 3rem;
+  border: 3px solid red;
+  margin: 4rem;
+}
+
+.box {
+  background-color: blue;
+  color: white;
+  width: 5rem;
+  height: 5rem;
+  margin: auto;
+  text-align: center;
+  line-height: 5rem;
+}
